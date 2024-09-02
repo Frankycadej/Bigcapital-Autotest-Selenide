@@ -2,15 +2,15 @@ package tests;
 
 public class BigCapitalistTest {
 
-//    Зарегестрироваться Себя и Организацию
+//    Зарегестрироваться Account и Организацию
 //      1. Зарегистрировать себя
-//        1.1 Вписать First Name
-//        1.2 Вписать Last Name
-//        1.3 Вписать Email
-//        1.4 Вписать Password
+//        1.1 Заполнить First Name
+//        1.2 Заполнить Last Name
+//        1.3 Заполнить Email
+//        1.4 Заполнить Password
 //        1.5 Continue
 //       2. Зарегистрировать организцаю
-//        2.1 Вписать Organization Name
+//        2.1 Заполнить Organization Name
 //        2.2 Выбрать Business Location
 //        2.3 Выбрать Base Currency (Zloty)
 //        2.4 Выбрать Language (опционально)(там нечего выбирать оказывается)
@@ -42,29 +42,29 @@ public class BigCapitalistTest {
 //      3.Заполнить формы
 //       3.1 Заполнить form__primary
 //        3.1.1 Выбрать Salutation
-//        3.1.2 Вписать First Name
-//        3.1.3 Вписать Last Name
-//        3.1.4 Вписать Company Name
+//        3.1.2 Заполнить First Name
+//        3.1.3 Заполнить Last Name
+//        3.1.4 Заполнить Company Name
 //        3.1.5 Выбрать Display Name
 //       3.2 Заполнить form__after-primary
-//        3.2.1 Вписать Customer email
-//        3.2.2 Вписать Personal Phone number
-//        3.2.3 Вписать Work Phone Number
-//        3.2.4 Вписать Website
+//        3.2.1 Заполнить Customer email
+//        3.2.2 Заполнить Personal Phone number
+//        3.2.3 Заполнить Work Phone Number
+//        3.2.4 Заполнить Website
 //       3.3 Заполнить Financial
 //        3.3.1 Выбрать Currency (опционально)
-//        3.3.2 Вписать Opening Balance
-//        3.3.3 Вписать/выбрать Opening balance at (опционально)
+//        3.3.2 Заполнить Opening Balance
+//        3.3.3 Заполнить/выбрать Opening balance at (опционально)
 //       3.4 Заполнить Address (Billing Address and Shipping Address)
 //        3.4.1 Нажать Address
-//        3.4.2 Вписать Country
-//        3.4.3 Вписать Address line 1
-//        3.4.4 Вписать Address line 2
-//        3.4.5 Вписать City/Town
-//        3.4.6 Вписать State
-//        3.4.7 Вписать ZIP/Code
-//        3.4.8 Вписать Phone
-//      4. Тыкнуть Save
+//        3.4.2 Заполнить Country
+//        3.4.3 Заполнить Address line 1
+//        3.4.4 Заполнить Address line 2
+//        3.4.5 Заполнить City/Town
+//        3.4.6 Заполнить State
+//        3.4.7 Заполнить ZIP/Code
+//        3.4.8 Заполнить Phone
+//      4. Нажать Save
 //      5. Проверить данные
 //       5.1 Нажать на Customer'a
 //       5.2 Проверить Customer name
@@ -78,33 +78,33 @@ public class BigCapitalistTest {
 
 //    Новый поставщик (Vendor)
 //      1.Перейти на страницу Vendors (Нажать на Vendors in Homepage)
-//      2.Перейти на страницу Vendors/new (Нажать на New Vendor)
+//      2.Перейти на страницу создания нового Vendor'a (Нажать на New Vendor)
 //      3.Заполнить формы
 //       3.1 Заполнить form__primary
 //        3.1.1 Выбрать Salutation
-//        3.1.2 Вписать First Name
-//        3.1.3 Вписать Last Name
-//        3.1.4 Вписать Company Name
+//        3.1.2 Заполнить First Name
+//        3.1.3 Заполнить Last Name
+//        3.1.4 Заполнить Company Name
 //        3.1.5 Выбрать Display Name
 //       3.2 Заполнить form__after-primary
-//        3.2.1 Вписать Vendor email
-//        3.2.2 Вписать Personal Phone number
-//        3.2.3 Вписать Work Phone Number
-//        3.2.4 Вписать Website
+//        3.2.1 Заполнить Vendor email
+//        3.2.2 Заполнить Personal Phone number
+//        3.2.3 Заполнить Work Phone Number
+//        3.2.4 Заполнить Website
 //       3.3 Заполнить Financial
 //        3.3.1 Выбрать Currency (опционально)
-//        3.3.2 Вписать Opening Balance
-//        3.3.3 Вписать/выбрать Opening balance at (опционально)
+//        3.3.2 Заполнить Opening Balance
+//        3.3.3 Заполнить/выбрать Opening balance at (опционально)
 //       3.4 Заполнить Address (Billing Address and Shipping Address)
 //        3.4.1 Нажать Address
-//        3.4.2 Вписать Country
-//        3.4.3 Вписать Address line 1
-//        3.4.4 Вписать Address line 2
-//        3.4.5 Вписать City/Town
-//        3.4.6 Вписать State
-//        3.4.7 Вписать ZIP/Code
-//        3.4.8 Вписать Phone
-//      4. Тыкнуть Save
+//        3.4.2 Заполнить Country
+//        3.4.3 Заполнить Address line 1
+//        3.4.4 Заполнить Address line 2
+//        3.4.5 Заполнить City/Town
+//        3.4.6 Заполнить State
+//        3.4.7 Заполнить ZIP/Code
+//        3.4.8 Заполнить Phone
+//      4. Нажать Save
 //      5. Проверить данные
 //       5.1 Нажать на Vendor'a
 //       5.2 Проверить Vendor name
@@ -122,16 +122,16 @@ public class BigCapitalistTest {
 //      3. Заполнить форму
 //          3.1 Заполнить форму form__primary
 //              3.1.1 Выбрать Item type
-//              3.1.2 Вписать Item Name
-//              3.1.3 Вписать Item Code
-//              3.1.4 Выбрать Category           или           создать новую (можно сделать как утилиту)
+//              3.1.2 Заполнить Item Name
+//              3.1.3 Заполнить Item Code
+//              3.1.4 Выбрать Category            TODO сделать как утилиту
 //          3.2 Заполнить форму I sell this item to a customer
 //              3.2.1 Написать Selling Price
 //              3.2.2 Выбрать Account
 //              3.2.3 Выбрать Tax Rate
-//              3.2.4 Вписать Description
+//              3.2.4 Заполнить Description
 //          3.3 Заполнить форму I purchase this item from a vendor
-//              3.3.1 Вписать Cost Price (Он должен быть меньше Selling Price)
+//              3.3.1 Заполнить Cost Price (Он должен быть меньше Selling Price)
 //              3.3.2 Выбрать Account
 //              3.3.3 Выбрать Tax Rate
 //              3.3.4 Description
@@ -157,17 +157,17 @@ public class BigCapitalistTest {
 //      2. Перейти на страницу invoices/new (Нажать на New Invoice)
 //      3. Заполнить форму
 //          3.1 Заполнить форму form__header
-//              3.1.1 Вписать Customer Name
-//              3.1.2 Вписать/Выбрать Invoice date
-//              3.1.3 Вписать/Выбрать Due date
-//              3.1.4 Вписать Reference
+//              3.1.1 Заполнить Customer Name
+//              3.1.2 Заполнить/Выбрать Invoice date
+//              3.1.3 Заполнить/Выбрать Due date
+//              3.1.4 Заполнить Reference
 //          3.2 Заполнить форму продукта
-//              3.2.1 Выбрать продукт в Product/Service                 или                 создать новый (можно сделать как утилиту)
+//              3.2.1 Выбрать продукт в Product/Service
 //              3.2.2 Написать Description
-//              3.2.3 Вписать Quantity
-//              3.2.4 Вписать Rate
-//              3.2.5 Вписать Tax rate
-//              3.2.6 Вписать Discount %
+//              3.2.3 Заполнить Quantity
+//              3.2.4 Заполнить Rate
+//              3.2.5 Заполнить Tax rate
+//              3.2.6 Заполнить Discount %
 //      4. Нажать Save
 //      5. Проверить данные
 //          5.1 Нажать на tr-context
@@ -189,5 +189,5 @@ public class BigCapitalistTest {
 
 
 
-//    TODO как проверять данные, вписываемые рандомом?
+//    TODO как проверять данные, вписываемые рандомом? (Хранить в переменных в тесте, брать значения из них и для заполнения, и для проверки)
 }
