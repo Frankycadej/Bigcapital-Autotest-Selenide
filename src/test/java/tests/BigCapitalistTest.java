@@ -2,27 +2,26 @@ package tests;
 
 public class BigCapitalistTest {
 
-//    Зарегестрироваться Account и Организацию
-//      1. Зарегистрировать себя
+//    Создать Account и Организацию
+//      1. Зарегистрировать Account
 //        1.1 Заполнить First Name
 //        1.2 Заполнить Last Name
 //        1.3 Заполнить Email
 //        1.4 Заполнить Password
-//        1.5 Continue
+//        1.5 Нажать Continue
 //       2. Зарегистрировать организцаю
 //        2.1 Заполнить Organization Name
 //        2.2 Выбрать Business Location
 //        2.3 Выбрать Base Currency (Zloty)
-//        2.4 Выбрать Language (опционально)(там нечего выбирать оказывается)
-//        2.5 Выбрать Fiscal Year
-//        2.6 Выбрать Time Zone
-//        2.7 Continue
+//        2.4 Выбрать Fiscal Year
+//        2.5 Выбрать Time Zone
+//        2.6 Нажать Continue
 //       3.Дождаться Initialisation
 //       4.Нажать Go to Dashboard
 //       5.Проверить данные
 //        5.1 Проверить General
 //         5.1.1 Нажать на аватар справа сверху
-//         5.1.2 Нажать на Preferences в выпадающем меню
+//         5.1.2 Выбрать Preferences в выпадающем меню
 //         5.1.3 Проверить Organization Name
 //         5.1.4 Проверить Organization Tax Number
 //         5.1.5 Проверить Organization Industry
@@ -130,11 +129,13 @@ public class BigCapitalistTest {
 //              3.2.2 Выбрать Account
 //              3.2.3 Выбрать Tax Rate
 //              3.2.4 Заполнить Description
+//              3.2.5 Проверить чекбокс I sell this item to a customer
 //          3.3 Заполнить форму I purchase this item from a vendor
 //              3.3.1 Заполнить Cost Price (Он должен быть меньше Selling Price)
 //              3.3.2 Выбрать Account
 //              3.3.3 Выбрать Tax Rate
 //              3.3.4 Description
+//              3.3.5 Проверить чекбос I purchase this item from a vendor
 //      4. Нажать Save
 //      5. Проверить данные
 //          5.1 Нажать на продукт
