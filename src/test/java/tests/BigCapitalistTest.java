@@ -1,5 +1,9 @@
 package tests;
 
+
+import models.AddressDTO;
+import models.CustomerDTO;
+
 public class BigCapitalistTest {
 
 //    Создать Account и Организацию
@@ -35,6 +39,18 @@ public class BigCapitalistTest {
 //         5.2.1 Проверить Full Name
 //         5.2.2 Проверить Email
 
+
+//    Пример использования:
+
+//    public void test() {
+//        CustomerDTO customerDTO = new CustomerDTO();
+//        customerDTO.setAddressShipping(new AddressDTO().addressLine1("").addressLine2(""));
+//        customerDTO.setAddressBilling(new AddressDTO().addressLine1(""));
+//
+//        customerDTO.getAddressBilling().addressLine1();
+//    }
+
+
 //    Новый покупатель (Customer)
 //      1.Перейти на страницу Customers (Нажать на кнопку Customers)
 //      2.Перейти на страницу New Customers (Нажать на кнопку New)
@@ -63,6 +79,7 @@ public class BigCapitalistTest {
 //        3.4.6 Заполнить State
 //        3.4.7 Заполнить ZIP/Code
 //        3.4.8 Заполнить Phone
+//       3.5 Заполнить Note
 //      4. Нажать Save
 //      5. Проверить данные
 //       5.1 Нажать на Customer'a
@@ -74,6 +91,7 @@ public class BigCapitalistTest {
 //       5.7 Проверить Opening balance
 //       5.8 Проверить Opening balance at
 //       5.9 Проверить Currency code
+//       5.11 Проверить Note
 
 //    Новый поставщик (Vendor)
 //      1.Перейти на страницу Vendors (Нажать на Vendors in Homepage)
